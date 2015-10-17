@@ -9,7 +9,7 @@ Android Wear: A custom watch face for Android Wear that uses the Sunshine weathe
 
 Preview
 ---
-Interaction Mode(left) and Ambient mode(right)
+<b>Interactive Mode (left) and Ambient mode (right)</b>
 ![](http://i.imgur.com/HKkqH79.png)
 
 <img src="http://i.imgur.com/g8oX0UK.png" width="709" height="310">
