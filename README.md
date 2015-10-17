@@ -20,6 +20,9 @@ Getting Started
 This sample uses the Gradle build system.  To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
+For weather to show up, Sunshine app(included in project) must be installed before connecting phone to wearable.
+You can either install the watch face and app seperately using their debug apk's or you can create a release apk which will combine both apk's into one. When you install the Sunshine release apk, the watch face should be automatically installed on the wearable once connected. If not, open the Android Wear app and select "sync apps" button.
+
 License
 -------
 Copyright 2015 The Android Open Source Project, Inc.
