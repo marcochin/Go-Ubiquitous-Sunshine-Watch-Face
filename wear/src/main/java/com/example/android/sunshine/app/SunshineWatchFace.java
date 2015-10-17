@@ -254,8 +254,9 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
             float hourYOffset = centerY - mCenterYTimeOffset;
 
             // Draw hour
+            String hour = String.format("%02d", mCalendar.get(Calendar.HOUR_OF_DAY));
             canvas.drawText(
-                    Integer.toString(mCalendar.get(Calendar.HOUR_OF_DAY)),
+                    hour,
                     hourXOffset,
                     hourYOffset,
                     mTimePaint);
@@ -270,8 +271,9 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
             }
 
             // Draw minutes
+            String minutes = String.format("%02d", mCalendar.get(Calendar.MINUTE));
             canvas.drawText(
-                    Integer.toString(mCalendar.get(Calendar.MINUTE)),
+                    minutes,
                     hourXOffset + mHourWidth + mColonWidth,
                     hourYOffset,
                     mTimePaint);
