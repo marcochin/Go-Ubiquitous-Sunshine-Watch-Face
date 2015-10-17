@@ -3,7 +3,9 @@ Go-Ubiquitous-Sunshine-Watch-Face
 
 Android Wear: A custom watch face for Android Wear that uses the Sunshine weather app to display the weather along with the time.
 
-Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. Used in the Udacity Advanced Android course.
+This watch face uses the `Wearable.MessageApi` to send and receive messages to and from the `WearableListenerService`. The `WearableListenerService` then queues the `ContentProvider` for today's forecast and sends it as a msg to the wearable. The forecast is finally drawn on the watch face along with the time!
+
+The app synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. Used in the Udacity Advanced Android course.
 
 
 Getting Started
