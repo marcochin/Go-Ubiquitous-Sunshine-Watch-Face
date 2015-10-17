@@ -7,6 +7,14 @@ Android Wear: A custom watch face for Android Wear that uses the Sunshine weathe
 * The `WearableListenerService` then queues the `ContentProvider` for today's forecast and sends it as a msg to the wearable. The forecast is finally drawn on the watch face along with the time!
 * The app synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. Used in the Udacity Advanced Android course.
 
+Preview
+---
+Interaction Mode(left) and Ambient mode(right)
+![](http://i.imgur.com/HKkqH79.png)
+
+<img src="http://i.imgur.com/g8oX0UK.png" width="709" height="310">
+
+
 Getting Started
 ---------------
 This sample uses the Gradle build system.  To build this project, use the
